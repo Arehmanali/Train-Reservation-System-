@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2100F93F-0CDA-4C3E-82CA-86D9055E81D5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TrainReservationSystem</RootNamespace>
+    <AssemblyName>TrainReservationSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Login.Designer.cs">
+      <DependentUpon>Admin Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Module.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Module.Designer.cs">
+      <DependentUpon>Admin Module.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Book Ticket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Book Ticket.Designer.cs">
+      <DependentUpon>Book Ticket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login Options.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login Options.Designer.cs">
+      <DependentUpon>Login Options.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Passenger Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Passenger Login.Designer.cs">
+      <DependentUpon>Passenger Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Passenger Module.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Passenger Module.Designer.cs">
+      <DependentUpon>Passenger Module.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Passenger Registeration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Passenger Registeration.Designer.cs">
+      <DependentUpon>Passenger Registeration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Passenger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Passenger.Designer.cs">
+      <DependentUpon>Passenger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reset Passenger Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reset Passenger Password.Designer.cs">
+      <DependentUpon>Reset Passenger Password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrainReservationSystemDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TrainReservationSystemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TrainReservationSystemDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TrainReservationSystemDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TrainReservationSystemDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TrainReservationSystemDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TrainReservationSystemDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TrainReservationSystemDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Trains.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trains.Designer.cs">
+      <DependentUpon>Trains.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin Login.resx">
+      <DependentUpon>Admin Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin Module.resx">
+      <DependentUpon>Admin Module.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Book Ticket.resx">
+      <DependentUpon>Book Ticket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login Options.resx">
+      <DependentUpon>Login Options.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Passenger Login.resx">
+      <DependentUpon>Passenger Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Passenger Module.resx">
+      <DependentUpon>Passenger Module.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Passenger Registeration.resx">
+      <DependentUpon>Passenger Registeration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Passenger.resx">
+      <DependentUpon>Passenger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Reset Passenger Password.resx">
+      <DependentUpon>Reset Passenger Password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trains.resx">
+      <DependentUpon>Trains.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="TrainReservationSystemDataSet.xsc">
+      <DependentUpon>TrainReservationSystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TrainReservationSystemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TrainReservationSystemDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TrainReservationSystemDataSet.xss">
+      <DependentUpon>TrainReservationSystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TrainReservationSystemDataSet1.xsc">
+      <DependentUpon>TrainReservationSystemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="TrainReservationSystemDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TrainReservationSystemDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TrainReservationSystemDataSet1.xss">
+      <DependentUpon>TrainReservationSystemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="TrainReservationSystemDataSet2.xsc">
+      <DependentUpon>TrainReservationSystemDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="TrainReservationSystemDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TrainReservationSystemDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TrainReservationSystemDataSet2.xss">
+      <DependentUpon>TrainReservationSystemDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="TrainReservationSystemDataSet3.xsc">
+      <DependentUpon>TrainReservationSystemDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="TrainReservationSystemDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TrainReservationSystemDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TrainReservationSystemDataSet3.xss">
+      <DependentUpon>TrainReservationSystemDataSet3.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
