@@ -13,6 +13,7 @@ namespace TrainReservationSystem
 {
     public partial class Admin_Login : Form
     { 
+        // sql data connection //// change it according to your sql server connection
         SqlConnection con = new SqlConnection("Data Source=REHMAN-PC\\REHMANSQLSERVER;Initial Catalog=TrainReservationSystem;Integrated Security=True");
         public Admin_Login()
         {
