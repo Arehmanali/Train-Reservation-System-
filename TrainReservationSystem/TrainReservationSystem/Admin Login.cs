@@ -46,7 +46,8 @@ namespace TrainReservationSystem
         {
             Application.Exit();
         }
-
+        
+        // login buttton functinality
         private void enterButton_Click(object sender, EventArgs e)
         {
             con.Open();
