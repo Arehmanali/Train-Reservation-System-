@@ -79,7 +79,8 @@ namespace TrainReservationSystem
             }
             
         }
-
+        
+        // update function for updating the data in database
         private void update()
         {
             string trainID = trainIdBox.Text;
