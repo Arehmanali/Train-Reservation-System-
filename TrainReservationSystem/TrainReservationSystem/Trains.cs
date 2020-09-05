@@ -14,6 +14,7 @@ namespace TrainReservationSystem
 {
     public partial class Trains : Form
     {
+        // sql connection string .... change it according to your system sql server string
         SqlConnection sql = new SqlConnection("Data Source=REHMAN-PC\\REHMANSQLSERVER;Initial Catalog=TrainReservationSystem;Integrated Security=True");
 
 
