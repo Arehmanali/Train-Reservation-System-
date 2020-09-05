@@ -24,13 +24,15 @@ namespace TrainReservationSystem
             populateData();
             trainIdBox.Focus();
         }
+        
         private void backButton_Click(object sender, EventArgs e)
         {
             Admin_Module am = new Admin_Module();
             am.Show();
             this.Hide();
         }
-
+        
+        // populate the data in data grid view from text boxes 
         private void populateData()
         {
             sql.Open();
