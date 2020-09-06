@@ -23,7 +23,9 @@ namespace TrainReservationSystem
         
         // sql connection string ....{change it according to yours}
         SqlConnection sql = new SqlConnection("Data Source=REHMAN-PC\\REHMANSQLSERVER;Initial Catalog=TrainReservationSystem;Integrated Security=True");
-
+        
+        
+        // populate data function for populating the data into data grid view
         private void populateData()
         {
             try
