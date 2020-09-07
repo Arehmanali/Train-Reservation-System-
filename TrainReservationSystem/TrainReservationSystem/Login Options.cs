@@ -14,6 +14,7 @@ namespace TrainReservationSystem
     
     public partial class Login_Options : Form
     {
+        // connection string .....{change it according to yours }
         SqlConnection con = new SqlConnection("Data Source=REHMAN-PC\\REHMANSQL;Initial Catalog=TrainReservationSystem;Integrated Security=True");
         public Login_Options()
         {
