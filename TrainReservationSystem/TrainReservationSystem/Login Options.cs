@@ -40,7 +40,7 @@ namespace TrainReservationSystem
 
         private void passengerButton_Click(object sender, EventArgs e)
         {
-            Passenger_Login pl = new Passenger_Login();
+            Passenger_Login pl = new Passenger_Login();         // open the new passenger login form
             pl.Show();
             this.Hide();
         }
