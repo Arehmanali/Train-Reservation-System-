@@ -32,6 +32,7 @@ namespace TrainReservationSystem
         {
             try
             {
+                // open the connection string
                 con.Open();
                 SqlDataAdapter sda = new SqlDataAdapter("SELECT COUNT(*) from passenger_signup where pEmail='" + passengerEmailBox.Text + "' and pPassword='" + passwordBox.Text + "'", con);
                 DataTable dt = new DataTable();
