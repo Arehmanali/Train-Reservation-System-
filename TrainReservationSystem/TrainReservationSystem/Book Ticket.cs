@@ -63,7 +63,7 @@ namespace TrainReservationSystem
                     
                     dataGridView1.Rows.Add(row1);
                 }
-                sql.Close();
+                sql.Close();            // close the opened sql connection string
             }
             catch (Exception ex)
             {
