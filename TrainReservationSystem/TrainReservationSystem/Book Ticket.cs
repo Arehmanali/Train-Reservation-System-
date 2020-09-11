@@ -30,7 +30,7 @@ namespace TrainReservationSystem
         {
             try
             {
-                sql.Open();
+                sql.Open();                 // open the sql connection 
                 SqlCommand cmd = new SqlCommand("select * from Ticket", sql);
                 SqlDataAdapter adapter = new SqlDataAdapter(cmd);
                 DataSet ds = new DataSet();
