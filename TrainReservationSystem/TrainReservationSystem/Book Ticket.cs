@@ -31,7 +31,7 @@ namespace TrainReservationSystem
             try
             {
                 sql.Open();                 // open the sql connection 
-                SqlCommand cmd = new SqlCommand("select * from Ticket", sql);
+                SqlCommand cmd = new SqlCommand("select * from Ticket", sql);           // retrieve the records from Ticket table of database
                 SqlDataAdapter adapter = new SqlDataAdapter(cmd);
                 DataSet ds = new DataSet();
                 adapter.Fill(ds);
