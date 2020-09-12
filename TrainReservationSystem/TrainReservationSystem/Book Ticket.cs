@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+        
 namespace TrainReservationSystem
 {
 
@@ -35,7 +35,7 @@ namespace TrainReservationSystem
                 SqlDataAdapter adapter = new SqlDataAdapter(cmd);
                 DataSet ds = new DataSet();
                 adapter.Fill(ds);
-                dataGridView1.Rows.Clear();
+                dataGridView1.Rows.Clear();         // clear the data from data grid view
 
                 for (int i = 0; i < ds.Tables[0].Rows.Count; i++)
                 {
