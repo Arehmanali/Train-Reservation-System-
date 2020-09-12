@@ -65,6 +65,8 @@ namespace TrainReservationSystem
                 }
                 sql.Close();            // close the opened sql connection string
             }
+            
+            // get the exception message
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
