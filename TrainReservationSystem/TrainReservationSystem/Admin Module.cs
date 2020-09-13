@@ -20,7 +20,7 @@ namespace TrainReservationSystem
 
         private void backButton_Click(object sender, EventArgs e)
         {
-            // open the admin login form
+            // open the new admin login form
             Admin_Login al = new Admin_Login();
             al.Show();
             this.Hide();
@@ -28,6 +28,7 @@ namespace TrainReservationSystem
 
         private void trainButton_Click(object sender, EventArgs e)
         {
+            // open the new train form
             Trains train = new Trains();
             train.Show();
             this.Hide();
