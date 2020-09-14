@@ -23,6 +23,7 @@ namespace TrainReservationSystem
 
         private void backButton_Click(object sender, EventArgs e)
         {
+            // open the login option form again
             Login_Options lo = new Login_Options();
             lo.Show();
             this.Hide();
