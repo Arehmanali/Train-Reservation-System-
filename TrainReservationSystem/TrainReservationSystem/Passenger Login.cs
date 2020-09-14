@@ -59,6 +59,7 @@ namespace TrainReservationSystem
 
         private void button1_Click(object sender, EventArgs e)
         {
+            // open the new form of reset passenger password
             Reset_Passenger_Password rp = new Reset_Passenger_Password();
             rp.Show();
             this.Hide();
