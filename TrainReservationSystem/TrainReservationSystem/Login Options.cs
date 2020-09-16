@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace TrainReservationSystem
 {
     
@@ -33,6 +34,7 @@ namespace TrainReservationSystem
 
         private void adminButton_Click(object sender, EventArgs e)
         {
+            // open the new admin login form
             Admin_Login al = new Admin_Login();
             al.Show();
             this.Hide();
