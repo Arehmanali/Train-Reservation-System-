@@ -27,6 +27,7 @@ namespace TrainReservationSystem
 
         private void exitButton_Click(object sender, EventArgs e)
         {
+            // Exit from application
             Application.Exit();
         }
 
