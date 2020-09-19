@@ -33,6 +33,7 @@ namespace TrainReservationSystem
 
         private void bookTicketButton_Click(object sender, EventArgs e)
         {
+            // Open the new book tickets form
             Book_Ticket bk = new Book_Ticket();
             bk.Show();
             this.Hide();
