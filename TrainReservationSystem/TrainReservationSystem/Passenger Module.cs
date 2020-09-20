@@ -41,7 +41,7 @@ namespace TrainReservationSystem
 
         private void editButton_Click(object sender, EventArgs e)
         {
-            // Open the new passenger registration form
+            // Open new passenger registration form
             Passenger_Registeration pr = new Passenger_Registeration();
             pr.Show();
             this.Hide();
