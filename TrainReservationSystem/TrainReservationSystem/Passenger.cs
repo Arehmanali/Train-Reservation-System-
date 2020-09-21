@@ -99,6 +99,7 @@ namespace TrainReservationSystem
 
         void save()
         {
+            // open the sql connection string 
             sql.Open();
             try
             {
