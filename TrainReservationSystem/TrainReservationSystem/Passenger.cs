@@ -28,7 +28,8 @@ namespace TrainReservationSystem
             trainNameBox.DataSource = ds.Tables[0];
             passengerIdBox.Focus();
         }
-
+        
+        // sql connection string ..... { change it according to yours }
         SqlConnection sql = new SqlConnection("Data Source=REHMAN-PC\\REHMANSQLSERVER;Initial Catalog=TrainReservationSystem;Integrated Security=True");
 
         private void populateData()
