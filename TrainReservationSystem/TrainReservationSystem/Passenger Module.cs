@@ -19,7 +19,7 @@ namespace TrainReservationSystem
 
         private void backButton_Click(object sender, EventArgs e)
         {
-            // Open the new passenger login form
+            // Open new passenger login form
             Passenger_Login pl = new Passenger_Login();
             pl.Show();
             this.Hide();
