@@ -49,7 +49,7 @@ namespace TrainReservationSystem
 
         private void logOutButton_Click(object sender, EventArgs e)
         {
-            // open the new passenger login form
+            // open new passenger login form
             Passenger_Login pl = new Passenger_Login();
             pl.Show();
             this.Hide();
