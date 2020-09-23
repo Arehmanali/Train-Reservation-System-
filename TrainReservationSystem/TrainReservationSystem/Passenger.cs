@@ -201,6 +201,7 @@ namespace TrainReservationSystem
 
             try
             {
+                // open the sql connection
                 sql.Open();
                 SqlCommand cmd = new SqlCommand("update Passengers set userID=@userID,passengerName=@userName,userSource=@source,userDestination=@destination,userAge=@age,userGender=@gender,userEmail=@email,userCnic=@cnic,userMobNo=@contact,userCity=@city,seatNo=@seatNo,seatType=@seatType,coachNo=@coachNo,trainNo=@trainName,departureDate=@depDate where userID=@userId", sql);
 
