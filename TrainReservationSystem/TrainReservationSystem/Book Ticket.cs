@@ -73,7 +73,8 @@ namespace TrainReservationSystem
             }
 
         }
-
+                
+        // generate the integer random number
         public int RandomNumber(int min, int max)
         {
             Random random = new Random();
