@@ -49,7 +49,7 @@ namespace TrainReservationSystem
                     string classType = ds.Tables[0].Rows[i].ItemArray[7].ToString();
                     var coachNo = ds.Tables[0].Rows[i].ItemArray[8].ToString();
 
-                    DataGridViewRow row1 = new DataGridViewRow();
+                    DataGridViewRow row1 = new DataGridViewRow();               // create the new data grid view
                     row1.CreateCells(dataGridView1);
                     row1.Cells[0].Value = TicketNo;
                     row1.Cells[1].Value = trainNo;
