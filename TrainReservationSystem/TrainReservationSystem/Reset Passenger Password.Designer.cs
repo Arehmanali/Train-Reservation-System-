@@ -3,7 +3,7 @@
     partial class Reset_Passenger_Password
     {
         /// <summary>
-        /// Required designer variable.
+        /// Required variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
