@@ -21,6 +21,7 @@ namespace TrainReservationSystem
         public Trains()
         {   
             InitializeComponent();
+            // Populate the data into data grid
             populateData();
             trainIdBox.Focus();
         }
