@@ -27,6 +27,7 @@ namespace TrainReservationSystem
         
         private void backButton_Click(object sender, EventArgs e)
         {
+            // Open the new admin module form
             Admin_Module am = new Admin_Module();
             am.Show();
             this.Hide();
