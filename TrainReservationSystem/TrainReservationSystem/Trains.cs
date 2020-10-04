@@ -37,6 +37,7 @@ namespace TrainReservationSystem
         // populate the data in data grid view from text boxes 
         private void populateData()
         {
+            // Open sql connection
             sql.Open();
             try
             {
