@@ -100,6 +100,7 @@ namespace TrainReservationSystem
            
             try
             {
+                // open the sql connection
                 sql.Open();
                 SqlCommand updateTrain = new SqlCommand("update Trains set trainNo=@trainID,trainName=@trainName,trainSource=@trainsource,destination=@destination,arrivalTime=@arrivalTime,departureTime=@departureTime,trainCoaches=@coaches,acSeats=@acSeats,economySeats=@ecconomySeats,fare=@fare where trainNo=@trainID", sql);
 
