@@ -41,7 +41,7 @@ namespace TrainReservationSystem
             sql.Open();
             try
             {
-                SqlCommand cmd = new SqlCommand("select * from trains", sql);
+                SqlCommand cmd = new SqlCommand("select * from trains", sql);       // retrieve the records from trains database
                 SqlDataAdapter adapter = new SqlDataAdapter(cmd);
                 DataSet ds = new DataSet();
                 adapter.Fill(ds);
