@@ -118,7 +118,7 @@ namespace TrainReservationSystem
 
                 MessageBox.Show("Train Data Updated Successfully :)");
                 sql.Close();        // close the sql connection
-                populateData();
+                populateData();     // populate the data grid with database records
             }
             catch(Exception ex)
             {
