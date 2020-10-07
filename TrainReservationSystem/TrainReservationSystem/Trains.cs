@@ -117,7 +117,7 @@ namespace TrainReservationSystem
                 updateTrain.ExecuteNonQuery();
 
                 MessageBox.Show("Train Data Updated Successfully :)");
-                sql.Close();
+                sql.Close();        // close the sql connection
                 populateData();
             }
             catch(Exception ex)
