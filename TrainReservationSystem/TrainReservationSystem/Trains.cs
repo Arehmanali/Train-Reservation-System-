@@ -120,6 +120,7 @@ namespace TrainReservationSystem
                 sql.Close();        // close the sql connection
                 populateData();     // populate the data grid with database records
             }
+            // catch the exception if occur and show in message box
             catch(Exception ex)
             {
                 MessageBox.Show(ex.Message);
