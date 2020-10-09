@@ -79,7 +79,7 @@ namespace TrainReservationSystem
             }
             catch(Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message);            // show the exception message in message box
             }
             
         }
