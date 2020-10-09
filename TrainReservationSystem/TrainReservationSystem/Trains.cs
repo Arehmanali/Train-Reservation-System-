@@ -310,7 +310,7 @@ namespace TrainReservationSystem
                 //if (e.KeyCode == Keys.Enter)
                 // search();
                 // search();
-                populateData();
+                populateData();         // populate the data in data grid view 
             }
         }
 
