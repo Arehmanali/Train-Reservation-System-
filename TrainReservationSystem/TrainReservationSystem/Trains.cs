@@ -285,7 +285,8 @@ namespace TrainReservationSystem
 
         private void searchButton_Click(object sender, EventArgs e)
         {
-            search();
+            // Search function
+            search(); 
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
