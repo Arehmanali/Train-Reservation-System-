@@ -186,6 +186,7 @@ namespace TrainReservationSystem
                 fareBox.Text = "";
                 trainIdBox.Focus();   
             }
+            // Catch the exception in message box
             catch(Exception ex)
             {
                 MessageBox.Show(ex.Message);
