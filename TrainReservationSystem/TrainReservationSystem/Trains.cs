@@ -202,7 +202,8 @@ namespace TrainReservationSystem
 
         private void addButton_Click(object sender, EventArgs e)
         {
-            save();
+            // call of save function for updating the data in database
+            save();         
             populateData();
         }
 
