@@ -132,6 +132,7 @@ namespace TrainReservationSystem
             Application.Exit();         // exit from application
         }
 
+        // save function for saving the data in database
         void save()
         {
             string trainID = trainIdBox.Text;
