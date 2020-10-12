@@ -323,7 +323,7 @@ namespace TrainReservationSystem
         {
             if (e.KeyCode == Keys.Enter)
                 // populateData();
-            search();
+            search();   // search function call
             //search();
         }
 
